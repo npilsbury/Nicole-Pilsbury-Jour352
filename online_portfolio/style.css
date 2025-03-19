@@ -9,15 +9,15 @@
     h1 {
         color: #ffff;
         font-family: "Playfair Display", serif;
-        margin: 32px 0px 0px 0px;
+        margin-top: 33px;
         font-size: 85px;
-        display: block;
+        text-align-last: center;
     }
 
     h2 {
         font-family: "Spectral", serif;
         color: #ffffff;
-        margin: 10px 0px 0px 0px;
+        margin-top: 10px;
         font-size: 50px;
         display: block;
     }
@@ -26,19 +26,21 @@
         border-radius: 10px;
         margin: 10px 0px 0px 50px;
     }
-
+    #title{
+        text-align:center;
+    }
     body {
         background-color: #5d5d81;
     }
 
     #topper {
         background-color: #5d5d81;
+        text-align-last: center;
     }
 
-    button {
-        margin: 21px 35px 34px 49px;
+    #button {
         background-color: #382462;
-        color: #ffffff;
+        color: #ffff;
         font-family: "Spectral", serif;
         font-size: 29px;
         border: none;
@@ -46,19 +48,37 @@
         width: 257px;
         height: 64px;
         display: block;
-    }
+        text-align: center;
+        margin-top: 20px;
+        text-decoration-style:none;
+        margin-left: 340px;
+      
 
+    }
+    #button_text{
+         color: #ffff; 
+        font-family: "Spectral", serif;
+        font-size: 29px;
+        text-decoration:none;
+    }
     h3 {
         font-family: "Spectral", serif;
         color: #ffffff;
+        text-decoration: none;
     }
     #navigation {
         text-align: center;
         background-color: #3b3355;
-        margin-top: 18px;
+        margin-top: 25px;
         margin-bottom: 20px;
+        color:#ffff;
+        text-decoration: none;
+        
     }
-
+    a {
+        text-decoration: none;
+        color: #ffff;
+    }
     #sections {
         text-align: left;
     }
@@ -67,7 +87,8 @@
         color: #ffffff;
         font-family: "Spectral", serif;
         font-size: 25px;
-        margin: 4px 0px 0px 50px;
+        margin: 10px -1px 0px 50px;
+        font-weight:bold
     }
 
     .company {
@@ -79,7 +100,7 @@
     .date {
         color: #ffffff;
         font-family: "Spectral", serif;
-        margin: 10px 0px 0px 50px;
+        margin: 10px 0px 10px 50px;
     }
 
     .experience {
@@ -88,8 +109,9 @@
         margin-top: 18px;
         margin-bottom: 20px;
         background-color: #f7567c;
-        margin-left: -13px;
+        margin-left: -3px;
         margin-right: -30px;
+    
     }
     .skills {
         background-color: #f7567c;
@@ -98,7 +120,7 @@
         margin-top: 18px;
         margin-bottom: 20px;
         background-color: #f7567c;
-        margin-left: -13px;
+        margin-left: -3px;
         margin-right: -30px;
     }
     .education{
@@ -108,18 +130,20 @@
         margin-top: 18px;
         margin-bottom: 20px;
         background-color: #f7567c;
-        margin-left: -13px;
+        margin-left: -3px;
         margin-right: -30px;
     }
     .description {
         font-family: "Spectral", serif;
         color: #ffffff;
+        margin: 10px 0px 40px 50px;
     }
 
     .list {
         color: #ffffff;
         font-family: "Spectral", serif;
         font-size: 20px;
+        margin: 8px -2px 5px 34px;
     }
 }
 @media (min-width: 576px) {
