@@ -9,7 +9,7 @@
         margin-top: 91px;
         text-align: center;
     }
-    h3 {
+    #subtitle {
         font-family: "Bodoni Moda", serif;
         color: white;
         margin-top: 590px;
@@ -53,7 +53,6 @@
         margin-left:13px;
     }
     #action{
-        width:100%;
          margin-right:13px;
         margin-left:13px;
         width:99%;
@@ -68,6 +67,21 @@
         width:100%;
         margin-right:13px;
         margin-left:13px;
+    }
+    #special{
+        margin-right:13px;
+        margin-left:13px;
+    }
+    h3{
+        font-family: "Alice", serif;
+        font-size: 30px;
+        margin-right:13px;
+        margin-left:13px;
+        font-weight:bold;
+    }
+    #couple{
+        width:100%;
+        float:right;
     }
 }
 
